@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body {
+    font-size: 16px;
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", Meiryo, "メイリオ";
+}
+
+nav {
+    border: 2px dashed black;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    background-color: aquamarine;
+}
+
+h2:hover {
+    color: violet;
+}
+
+th {
+    border: 6px double black;
+}
+
+td {
+    border: 6px double black;
+}
+
+tr:nth-child(even) {
+    background-color: greenyellow;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+table {
+    
+    border: 1px solid blue;
+}
+

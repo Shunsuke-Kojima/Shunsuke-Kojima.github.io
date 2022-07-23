@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shunsuke KOJIMA">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>課題1　経歴</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="top">小嶋駿介のホームページ</h1>
+        <nav>
+            お問い合わせ先：e1935108@soka-u.jp          
+        </nav>
+    </header>
+    
+    <div>
+        <h2 onclick="selfintro(5)">経歴</h2>
+
+        <div>
+            <button type="button" onclick="selfintro(1)">小学校時代</button>
+            <button type="button" onclick="selfintro(2)">中学校時代</button>
+            <button type="button" onclick="selfintro(3)">高校時代</button>
+            <button type="button" onclick="selfintro(4)">大学時代</button>
+        </div>
+
+        <br>
+
+        <table>
+            <tr>
+                <th>年代</th>
+                <th>経歴</th>
+            </tr>
+            <tr>
+                <th>～2013年3月(小学校時代)</th>
+                <td>日野市立日野第七小学校卒業　5年間地域のサッカークラブに所属</td>
+            </tr>
+            <tr>
+                <th>2013年4月～2016年3月(中学校時代)</th>
+                <td>日野市立大坂上中学校卒業 英検2級取得</td>
+            </tr>
+            <tr>
+                <th>2016年4月～2019年3月(高校時代)</th>
+                <td>東京都立昭和高校卒業　3年間陸上部長距離に所属</td>
+            </tr>
+            <tr>
+                <th>2019年4月(大学時代～)</th>
+                <td>創価大学国際教養学部国際教養学科 卒業予定</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div>
+        <h2 onclick="selfintro(6)">人生満足度</h2>
+        <div>
+            <!--グラフを描画したい場所にcanvasタグを用意する-->
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <!--<a href="#top">トップに戻る</a>-->
+
+    <footer>
+        Copyright &copy;Shunsuke KOJIMA, All Rights Reserved.
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js" integrity="sha512-5m2r+g00HDHnhXQDbRLAfZBwPpPCaK+wPLV6lm8VQ+09ilGdHfXV7IVyKPkLOTfi4vTTUVJnz7ELs7cA87/GMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/chart.js"></script>
+</body>
+
+</html>
